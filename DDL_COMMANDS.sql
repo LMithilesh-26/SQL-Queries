@@ -16,7 +16,7 @@ CREATE TABLE Customers
 	Last_Name		VARCHAR(20),
 	Phone_No		BIGINT,
 	address			VARCHAR(50),
-	DOB				DATE, 
+	DOB			DATE, 
 	Is_Active		BOOLEAN
 );
 CREATE TABLE Accounts
@@ -43,8 +43,8 @@ CREATE TABLE Products
 );
 CREATE TABLE Branch
 (
-	Branch_Name 	VARCHAR(20),
-	Branch_Code 	VARCHAR(20),
+	Branch_Name 		VARCHAR(20),
+	Branch_Code 		VARCHAR(20),
 	Location 		VARCHAR(20)
 );
 CREATE TABLE Employees
@@ -53,7 +53,7 @@ CREATE TABLE Employees
 	First_Name 		VARCHAR(20),
 	Last_Name 		VARCHAR(20),
 	Salary 			FLOAT,
-	Branch_Code 	VARCHAR(20)
+	Branch_Code 		VARCHAR(20)
 );
 SELECT * FROM Customers;
 SELECT * FROM Accounts;
